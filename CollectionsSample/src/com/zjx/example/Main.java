@@ -3,6 +3,14 @@ package com.zjx.example;
 public class Main {
 
     public static void main(String[] args) {
+        System.out.println("---------------------ArrayList示例----------------------");
+        ArrayListTest arrayListTest = new ArrayListTest();
+        arrayListTest.testArrayList();
+
+        System.out.println("---------------------LinkedList示例----------------------");
+        LinkedListTest linkedListTest = new LinkedListTest();
+        linkedListTest.testLinkedList();
+
         System.out.println("---------------------HashMap示例----------------------");
         HashMapTest hashMapTest = new HashMapTest();
         hashMapTest.testHashMap();
