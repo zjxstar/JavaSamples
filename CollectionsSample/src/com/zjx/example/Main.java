@@ -10,6 +10,10 @@ public class Main {
         System.out.println("---------------------TreeMap示例----------------------");
         TreeMapTest treeMapTest = new TreeMapTest();
         treeMapTest.testTreeMap();
+
+        System.out.println("---------------------HashSet示例----------------------");
+        HashSetTest hashSetTest = new HashSetTest();
+        hashSetTest.testHashSet();
     }
 
 }
