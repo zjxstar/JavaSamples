@@ -22,6 +22,10 @@ public class Main {
         System.out.println("---------------------HashSet示例----------------------");
         HashSetTest hashSetTest = new HashSetTest();
         hashSetTest.testHashSet();
+
+        System.out.println("---------------------TreeSet示例-----------------------");
+        TreeSetTest treeSetTest = new TreeSetTest();
+        treeSetTest.testTreeSet();
     }
 
 }
