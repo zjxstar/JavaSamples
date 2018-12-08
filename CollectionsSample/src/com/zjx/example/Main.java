@@ -26,6 +26,14 @@ public class Main {
         System.out.println("---------------------TreeSet示例-----------------------");
         TreeSetTest treeSetTest = new TreeSetTest();
         treeSetTest.testTreeSet();
+
+        System.out.println("----------------------Vector示例-----------------------");
+        VectorTest vectorTest = new VectorTest();
+        vectorTest.testVector();
+
+        System.out.println("----------------------Stack示例--------------------");
+        StackTest stackTest = new StackTest();
+        stackTest.testStack();
     }
 
 }
